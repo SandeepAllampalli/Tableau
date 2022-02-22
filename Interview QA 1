@@ -1,0 +1,87 @@
+1. What type of joins are used in blending?
+A: Data Blending: Combining the data from two or more different sources is Data Blending.
+   Data Joining: Combining the data between two or more tables or sheets within the same Data Source is Data Joining.
+   There are different types of join;
+   1. Left join 2. Right join 3. Inner join 4. Full outer join
+   Data Blending performs like a left join operation and does not accept or perform any other type of join.
+   
+2. What is Hierarchy? What is the purpose of putting different dimensions into one hierarchy?
+A: In the context of data, hierarchies are a logical arrangement of relevant unique attributes in a data set. 
+   By creating hierarchies in Tableau, we set our data on different levels of detail and organize it. 
+   Tableau can automatically create hierarchies by detecting relevant    fields or you can create custom hierarchies.
+   With Tableau, you can easily create hierarchies to keep your data neat. 
+   Create a hierarchy simply by dragging one field on top of another. 
+   Tableau will automatically create the hierarchy. Then, drag and drop the fields within the hierarchy to alter the order if needed.
+   
+3. What is the Analytics tab in Tableau?
+A: The analytics tab enables you to add reference lines and bands to your charts.
+
+4. What is clustering all about in Tableau?
+A: Cluster analysis or clustering in Tableau is dividing a data set into segments or clusters having relevant data values. 
+   Clustering helps us conduct a comparative analysis of data in Tableau.
+   Thus, clustering is done using specific clustering algorithms where similar values are kept together as a part of the group.
+   Tableau uses the k-means algorithm for clustering. For a given number of clusters k, the algorithm partitions the data into k clusters.
+   Each cluster has a center (centroid) that is the mean value of all the points in that cluster.
+   
+5. What techniques can be used to merge multiple datasets? 
+A: Joining, Blending, Union.
+
+6. What is the difference between joins and unions?
+A: In simple terms, joins combine data into new columns.
+   Unions combine data into new rows.
+   
+7. What are sets and why do we use them?
+A: Sets in Tableau are used to create subsets of data based on certain conditions defined by the user.
+   Sets enable you to visualize groups which match one or more criteria. 
+   They are even more powerful in combination with parameters which allow you to dynamically change the criteria for the sets.
+   
+8. What are parameters?
+A: A parameter is a workbook variable such as a number, date, or string that can replace a constant value in a calculation, filter, or          reference line.
+
+9. Can we do binning on dimensions?
+A: We can create the bins on measures only, we can't create on dimensions. Generally bins field will be used in Histogram Chart.
+   The main use of the bins is to organize the values of measures into discrete points. Also we can say bins are used to convert the            continuous measures to discrete value/point.
+   
+10. What is the usage of grouping feature?
+A: Grouping in Tableau is grouping multiple members/values into several groups which will create a higher category of the dimension.
+   The most significant difference is that sets are dynamic while groups are not.
+   
+11. What is Pivoting in Tableau?
+A: Pivoting data is the technique of data shaping that rotates data from a state of rows to a state of columns. 
+   Simply put as the process of converting data from crosstab format (which can be difficulty to work with) to columnar format.
+   
+12. What tool in Tableau can help in Data Cleaning and Data Preparation?
+A: Data Interpreter.
+
+13. When should we use Blending and what does it do?
+A: Data Blending is a very powerful feature in Tableau. 
+   It is used when there is related data in multiple data sources, which you want to analyze together in a single view. 
+   
+14. What are Context Filters and their application?
+A: Context Filter is a filter in Tableau that gets applied before any other filter, applied on a worksheet.
+   This will improve the performance of Tableau significantly, 
+   especially when there are a lot of filters applied in the workbook and also when we are dealing with very huge data.
+   
+15. What types of Charts are used for Correlation?
+A: Scatter Plots to Find Correlation in Tableau.
+
+16. What are Table Calculations?  
+A: Table calculations are a special type of calculated field that computes on the local data in Tableau. 
+   They are calculated based on what is currently in the visualization and do not consider any measures or dimensions that are filtered out    of the visualization.
+   The following quick table calculations are available in Tableau for you to use:
+    Running total
+    Difference
+    Percent difference
+    Percent of total
+    Rank
+    Percentile
+    Moving average
+    YTD total
+    Compound growth rate
+    Year of year growth
+    YTD growth
+   
+17. What is the difference between Table calculation and Calculated field?
+A: The difference between the two types of calculations goes beyond where they are found. 
+    Table Calculations are simpler and their scope is more limited compared to Calculated Fields. 
+    Calculated fields are much more diverse enabling deeper analysis.
